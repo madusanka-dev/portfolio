@@ -1,0 +1,42 @@
+html, body {
+  overscroll-behavior-y: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  height: 100%;
+}
+
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  will-change: transform;
+}
+
+section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.box-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1000%;
+}
+
+.header {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+.mask{
+  mask-image: url('./assets/images/mask.svg');
+  mask-repeat: no-repeat;
+  mask-size: 20px;
+  background: #17242A;
+  position: absolute;
+  color: #ffffff;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-arima: "Arima", serif;
+}
+
+.inter {
+  font-family: var(--font-inter);
+}
+
+.arima {
+  font-family: var(--font-arima);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
