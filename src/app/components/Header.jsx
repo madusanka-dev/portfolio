@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-function header() {
+function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const menuVariants = {
@@ -146,4 +146,4 @@ function header() {
 
 
 
-export default header
+export default Header
